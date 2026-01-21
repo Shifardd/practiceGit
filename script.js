@@ -1,7 +1,9 @@
 const body = document.querySelector('body');
+
 const changeBgColor = document.createElement('input');
 changeBgColor.type = "color";
 changeBgColor.classList.add('input');
+
 const button = document.createElement('button');
 button.classList.add('button');
 button.textContent = "Change";
