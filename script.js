@@ -18,4 +18,5 @@ button.addEventListener('click', ()=> {
 function handleDynamicBackgroundColor () {
   let bgColor = changeBgColor.value;
   body.style.cssText = `background-color: ${bgColor}`;
+  button.style.backgroundColor = `${bgColor}`;
 }
